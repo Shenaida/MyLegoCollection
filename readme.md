@@ -1,0 +1,1 @@
+[![Build Status](https://oezoezoe.visualstudio.com/MyLegoCollection/_apis/build/status/MyLegoCollection-CI)](https://oezoezoe.visualstudio.com/MyLegoCollection/_build/latest?definitionId=5)

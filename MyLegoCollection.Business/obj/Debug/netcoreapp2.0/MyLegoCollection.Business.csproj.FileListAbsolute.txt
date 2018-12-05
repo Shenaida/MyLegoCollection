@@ -1,0 +1,9 @@
+C:\Users\Shenaida\source\repos\MyLegoCollection\MyLegoCollection.Business\bin\Debug\netcoreapp2.0\MyLegoCollection.Business.deps.json
+C:\Users\Shenaida\source\repos\MyLegoCollection\MyLegoCollection.Business\bin\Debug\netcoreapp2.0\MyLegoCollection.Business.dll
+C:\Users\Shenaida\source\repos\MyLegoCollection\MyLegoCollection.Business\bin\Debug\netcoreapp2.0\MyLegoCollection.Business.pdb
+C:\Users\Shenaida\source\repos\MyLegoCollection\MyLegoCollection.Business\obj\Debug\netcoreapp2.0\MyLegoCollection.Business.csprojResolveAssemblyReference.cache
+C:\Users\Shenaida\source\repos\MyLegoCollection\MyLegoCollection.Business\obj\Debug\netcoreapp2.0\MyLegoCollection.Business.csproj.CoreCompileInputs.cache
+C:\Users\Shenaida\source\repos\MyLegoCollection\MyLegoCollection.Business\obj\Debug\netcoreapp2.0\MyLegoCollection.Business.AssemblyInfoInputs.cache
+C:\Users\Shenaida\source\repos\MyLegoCollection\MyLegoCollection.Business\obj\Debug\netcoreapp2.0\MyLegoCollection.Business.AssemblyInfo.cs
+C:\Users\Shenaida\source\repos\MyLegoCollection\MyLegoCollection.Business\obj\Debug\netcoreapp2.0\MyLegoCollection.Business.dll
+C:\Users\Shenaida\source\repos\MyLegoCollection\MyLegoCollection.Business\obj\Debug\netcoreapp2.0\MyLegoCollection.Business.pdb

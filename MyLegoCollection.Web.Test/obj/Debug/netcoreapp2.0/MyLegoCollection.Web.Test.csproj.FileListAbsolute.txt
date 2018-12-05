@@ -1,0 +1,3 @@
+C:\Users\Shenaida\source\repos\MyLegoCollection\MyLegoCollection.Web.Test\obj\Debug\netcoreapp2.0\MyLegoCollection.Web.Test.csproj.CoreCompileInputs.cache
+C:\Users\Shenaida\source\repos\MyLegoCollection\MyLegoCollection.Web.Test\obj\Debug\netcoreapp2.0\MyLegoCollection.Web.Test.AssemblyInfoInputs.cache
+C:\Users\Shenaida\source\repos\MyLegoCollection\MyLegoCollection.Web.Test\obj\Debug\netcoreapp2.0\MyLegoCollection.Web.Test.AssemblyInfo.cs

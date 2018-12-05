@@ -1,0 +1,94 @@
+﻿@using MyLegoCollection.Web.Models.CollectionViewModels
+@model AddLegoSetViewModel
+
+<div class="container">
+    <div class="row">
+        <h2 class="text-center">Add your new lego set here!</h2>
+    </div>
+    <div class="row">
+        <form asp-controller="Collection" asp-action="Add" method="post">
+            <div class="col-xs-6">
+                <div class="row form-group">
+                    <div class="input-group">
+                        <span class="input-group-addon primary"><span class="glyphicon glyphicon-pencil"></span></span>
+                        <input asp-for="Number" class="form-control" placeholder="Lego Set Number">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="input-group">
+                        <span class="input-group-addon primary"><span class="glyphicon glyphicon-font"></span></span>
+                        <input asp-for="Name" class="form-control" placeholder="Lego Name">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="input-group">
+                        <span class="input-group-addon info"><span class="glyphicon glyphicon-film"></span></span>
+                        <select asp-for="SelectedTheme" class="form-control" asp-items="@new SelectList(Model.Themes,nameof(MyLegoCollection.Web.Data.Entities.Theme.Id), nameof(MyLegoCollection.Web.Data.Entities.Theme.Name), Model.SelectedTheme)"></select>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="input-group">
+                        <span class="input-group-addon info"><span class="glyphicon glyphicon-euro"></span></span>
+                        <input asp-for="Price" class="form-control" placeholder="price">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="input-group">
+                        <span class="input-group-addon warning"><span class="glyphicon glyphicon-calendar"></span></span>
+                        <input asp-for="PurchaseDate" class="form-control" placeholder="Date of purchase">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="input-group">
+                        <span class="input-group-addon warning"><span class="glyphicon glyphicon-shopping-cart"></span></span>
+                        <input asp-for="BoughtAt" class="form-control" placeholder="Bought at">
+                    </div>
+                </div>
+                @* <div class="row form-group">
+            <div class="input-group">
+                <span class="input-group-addon warning"><span class="glyphicon glyphicon-pawn"></span></span>
+                <input asp-for="LegoPieces" class="form-control" placeholder="Amount Lego pieces">
+            </div>
+        </div>
+        <div class="row form-group">
+            <div class="input-group">
+                <span class="input-group-addon warning"><span class="glyphicon glyphicon-minus"></span></span>
+                <input asp-for="AgeMinimum" class="form-control" placeholder="Age minimum">
+            </div>
+        </div>
+        <div class="row form-group">
+            <div class="input-group">
+                <span class="input-group-addon warning"><span class="glyphicon glyphicon-plus"></span></span>
+                <input asp-for="AgeMinimum" class="form-control" placeholder="Age maximum">
+            </div>
+        </div>
+        <div class="row form-group">
+            <div class="input-group">
+                <input asp-for="BoxHeight" class="form-control" placeholder="Box Height">
+                <span class="input-group-addon success"><span class="glyphicon glyphicon-object-align-bottom"></span></span>
+            </div>
+        </div>
+        <div class="row form-group">
+            <div class="input-group">
+                <input asp-for="BoxWidth" class="form-control" placeholder="Box Width">
+                <span class="input-group-addon success"><span class="glyphicon glyphicon-object-align-left"></span></span>
+            </div>
+        </div>
+        <div class="row form-group">
+            <div class="input-group">
+                <input asp-for="BoxDepth" class="form-control" placeholder="Box Depth">
+                <span class="input-group-addon success"><span class="glyphicon glyphicon-object-align-vertical"></span></span>
+            </div>
+        </div>*@
+                <div class="form-group">
+                    <button type="submit" class="btn btn-success btn-block">Submit</button>
+                </div>
+                <div class="form-group">
+                </div>
+            </div>
+        </form>
+        <div class="col-xs-6">
+            <p>Hier kan dan bijvoorbeeld invoeren via lego API komen</p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,43 @@
+﻿@using MyLegoCollection.Web.Models.HomeViewModels
+@model ICollection<LegoSetViewModel>
+@*<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>*@                                 @*??????????*@
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+    <div class="container">
+        <h2>Your lego collection</h2>
+        <hr>
+        <div class="row">
+            <div class="col-xs-12" style="">
+                <div class="panel panel-default list-group-panel">
+                    <div class="panel-body">
+                        <ul class="list-group list-group-header">
+                            <li class="list-group-item list-group-body">
+                                <div class="row">
+                                    <div class="col-xs-6 text-left" style="padding-left:40px">Name</div>
+                                    <div class="col-xs-2">Price</div>
+                                    <div class="col-xs-2">Date</div>
+                                    <div class="col-xs-2">Shop</div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul class="list-group list-group-body" style="">
+                            @foreach (var legoset in Model)
+                            {
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col-xs-6 text-left" style=""> <a><span style="float: left; padding-right: 10px"><img src="~/images/Coming_Soon_Under_Construction.gif" style="height:40px" /></span>  @legoset.Name</a> </div>
+                                        <div class="col-xs-2" style="">@legoset.Price</div>
+                                        <div class="col-xs-2" style="">@legoset.PurchaseDate</div>
+                                        <div class="col-xs-2" style="">@legoset.BoughtAt</div>
+                                    </div>
+                                </li>
+                            }
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

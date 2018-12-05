@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\MyLegoCollection.Business",
+    "\\MyLegoCollection.Web",
+    "\\MyLegoCollection.Web\\Business",
+    "\\MyLegoCollection.Web\\Business\\Commands",
+    "\\MyLegoCollection.Web\\Business\\Queries",
+    "\\MyLegoCollection.Web\\Business\\QueryHandlers",
+    "\\MyLegoCollection.Web\\Data",
+    "\\MyLegoCollection.Web\\Views",
+    "\\MyLegoCollection.Web\\Views\\Shared"
+  ],
+  "SelectedNode": "\\MyLegoCollection.Web\\Views\\Shared\\_Layout.cshtml",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,39 @@
+﻿@using MyLegoCollection.Web.Models.CollectionViewModels
+@model BatchAddModel
+
+<div class="user-dashboard">
+    <h1>Hello, "username"</h1>
+
+        @*<form asp-controller="collection" asp-action="VerifySetNumbers" method="post">
+
+            <label asp-for="SetNumbers">Set numbers</label>
+            <div class="search input">
+                <textarea asp-for="SetNumbers"></textarea>
+                <input type="submit" />
+            </div>
+</form>*@
+    </div>
+<div id="login-overlay" class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            
+            <h4 class="modal-title" id="myModalLabel">Add set numbers to your collection </h4>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="well">
+                        <form asp-controller="collection" asp-action="VerifySetNumbers" method="post">
+                            <div class="form-group">
+                                <label asp-for="SetNumbers">Lego setnumbers</label>
+                                <input type="text" class="form-control" title="SetNumbers" placeholder="1234 1235 etc">
+                                <span class="help-block">You can submit multiple numbers at once</span>
+                            </div>                        
+                            <button type="submit" class="btn btn-success btn-block">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
